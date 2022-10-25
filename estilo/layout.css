@@ -32,6 +32,11 @@ body {
     padding: 1em; 
     text-align: left;     
     }
+
+    /*Especificidad: 001*/
+  h4 {   
+    text-align: center;     
+    }
   
   /*Especificidad: 001*/
   main{
@@ -79,7 +84,8 @@ body {
   }
   /*Especificidad: 001*/
   h5{
-    padding: 4em; 
+    margin-top: 5em;
+    text-align: center;
   }
   /*Especificidad: 001*/
   p{
@@ -113,6 +119,7 @@ body {
     flex-flow:column ;
     flex:content;
     margin-top:2em;
+    
   }
   /*Especificidad: 001*/
   label{
@@ -130,4 +137,24 @@ input{
     display:flex;
     flex-flow:row ;
     flex:content;
+  }
+
+  /*Especificidad: 001*/
+  address{
+    display:flex;
+    flex-flow:row ;
+    flex:auto;
+    padding-left: 1em;
+    width: 90%;
+  }
+   /*Especificidad: 001*/
+   aside{
+    display:flex;
+    flex-flow:column ;
+    flex:content;
+  }
+  /*Especificidad: 001*/
+  li{
+    text-align: left;
+    margin-left: 20%;
   }
