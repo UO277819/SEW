@@ -38,6 +38,7 @@ nav{
 /*Especificidad: 001*/
 a{
   color:#000;
+  background-color:transparent;
 }
 
 
