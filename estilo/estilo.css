@@ -72,7 +72,7 @@ caption{
 
 /*Especificidad: 001*/
 fieldset{
-  
+  font-size: large;
   justify-content: center;
 }
 
@@ -84,3 +84,12 @@ footer{
   border:0.2ex solid #000; 
 }
 
+/*Especificidad: 001*/
+label{
+  font-size: large;
+}
+
+/*Especificidad: 001*/
+input{
+  font-size: large;
+}
