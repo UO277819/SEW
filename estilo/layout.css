@@ -3,6 +3,7 @@ body {
     display:flex;
     flex-flow:column ;
     flex:auto;
+    width: auto;
     }
   
    /*Especificidad: 001*/
@@ -15,9 +16,9 @@ body {
   section{
     display:flex;
     flex-flow:column ;
-    flex:auto;
+    flex:content;
     padding-left: 1em;
-  
+    width: 90%;
   }
   
   /*Especificidad: 001*/
@@ -92,9 +93,14 @@ body {
   
   /*Especificidad: 001*/
   fieldset{
+    padding-top: 2em;
+    position: relative;
+    bottom: 0;
+    border-radius: 2em;
     display:flex;
-    flex-flow:row ;
-    flex:auto;
+    flex-flow:column ;
+    flex:content;
+    margin-top:2em;
   }
   
   /*Especificidad: 001*/
@@ -104,18 +110,24 @@ body {
     bottom: 0;
     border-radius: 2em;
     display:flex;
-    flex-flow:row ;
-    flex:auto;
+    flex-flow:column ;
+    flex:content;
     margin-top:2em;
   }
   /*Especificidad: 001*/
   label{
     padding:0.8em;
+    width: 90%;
+    display:flex;
+    flex-flow:row ;
+    flex:content;
   }
 
   /*Especificidad: 001*/
 input{
     margin-top: 1em;
-    margin-left: 0.7em;
-    margin-right: 0.7em;
+    width: 90%;
+    display:flex;
+    flex-flow:row ;
+    flex:content;
   }
