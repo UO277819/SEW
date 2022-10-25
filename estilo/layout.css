@@ -108,3 +108,8 @@ body {
     flex:auto;
     margin-top:2em;
   }
+
+/*Especificidad: 001*/
+  label{
+    padding:0.8em;
+  }
