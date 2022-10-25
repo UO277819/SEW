@@ -3,39 +3,23 @@ body {
   font-family: Tahoma, sans-serif;
   color: #000000;
   background-color: #c9ddfa;
-  display:flex;
-  flex-flow:column ;
-  flex:auto;
   }
 
  /*Especificidad: 001*/
-h1 {
-  color: #000;    
+h1 {    
   text-transform: uppercase;
-  padding: 1em; 
-  text-align: center;   
+  text-align: center; 
   }
 
 /*Especificidad: 001*/
-section{
-  display:flex;
-  flex-flow:column ;
-  flex:auto;
-  padding-left: 1em;
-
-}
-
-/*Especificidad: 001*/
 h2 {   
-  text-transform: uppercase;
-  padding: 1em; 
-  text-align: center;     
+  text-transform: uppercase;   
+  text-align: center;
   }
 
 /*Especificidad: 001*/
 h3 {   
   
-  padding: 1em; 
   text-align: left;     
   }
 
@@ -44,40 +28,21 @@ main{
   text-align: center;
   color: #000000;
   background-color: #c9ddfa;
-  display:flex;
-  flex-flow:row ;
-  flex:auto;
-  padding:2em;
 }
 /*Especificidad: 001*/
 nav{
   background: linear-gradient(90deg,rgb(212, 243, 255) 0%, #0d6efd 100%);
     height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center  ;
-    font-size: 1.2rem;
-    border-radius: 1em;
-    margin-bottom: 1em;
     border:0.2ex solid #000; 
 }
 /*Especificidad: 001*/
 a{
-  color: rgb(0, 0, 0);
-  padding:1em;  
+  color:#000;
 }
-/*Especificidad: 001*/
-header{
-  display:flex;
-  flex-flow:column ;
-  flex:auto;
-}
+
 
 /*Especificidad: 001*/
 dl{
-  display:flex;
-  flex-flow:column ;
-  flex:auto;
   border:0.5ex solid #000; 
   
 }
@@ -85,36 +50,28 @@ dl{
 dt{
    
   text-transform: uppercase;
-  padding: 1em;   
 }
 /*Especificidad: 001*/
 video{
   width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block
 }
 /*Especificidad: 001*/
 h5{
   text-align: center;
+  text-transform: uppercase;
 }
 /*Especificidad: 001*/
 p{
   text-align: left;
-  padding: 1em;
 }
 /*Especificidad: 001*/
 caption{
   
-  padding: 2em;   
   text-transform: uppercase;
 }
 
 /*Especificidad: 001*/
 fieldset{
-  display:flex;
-  flex-flow:row ;
-  flex:auto;
   
   justify-content: center;
 }
@@ -123,15 +80,7 @@ fieldset{
 footer{
   color:rgb(0, 0, 0);
   background-color: #aac9f8;
-  padding-top: 2em;
-  position: relative;
-  bottom: 0;
   width: 100%;
-  border-radius: 2em;
-  display:flex;
-  flex-flow:row ;
-  flex:auto;
   border:0.2ex solid #000; 
-  margin-top:2em;
 }
 

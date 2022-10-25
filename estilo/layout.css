@@ -1,0 +1,110 @@
+/*Especificidad: 001*/
+body {
+    display:flex;
+    flex-flow:column ;
+    flex:auto;
+    }
+  
+   /*Especificidad: 001*/
+  h1 {
+    padding: 1em; 
+     
+    }
+  
+  /*Especificidad: 001*/
+  section{
+    display:flex;
+    flex-flow:column ;
+    flex:auto;
+    padding-left: 1em;
+  
+  }
+  
+  /*Especificidad: 001*/
+  h2 {   
+    padding: 1em;      
+    }
+  
+  /*Especificidad: 001*/
+  h3 {   
+    
+    padding: 1em; 
+    text-align: left;     
+    }
+  
+  /*Especificidad: 001*/
+  main{
+    display:flex;
+    flex-flow:row ;
+    flex:auto;
+    padding:2em;
+  }
+  /*Especificidad: 001*/
+  nav{
+      display: flex;
+      justify-content: center;
+      align-items: center  ;
+      border-radius: 1em;
+      margin-bottom: 1em;
+  }
+  /*Especificidad: 001*/
+  a{
+    padding:1em;  
+  }
+  /*Especificidad: 001*/
+  header{
+    display:flex;
+    flex-flow:column ;
+    flex:auto;
+  }
+  
+  /*Especificidad: 001*/
+  dl{
+    display:flex;
+    flex-flow:column ;
+    flex:auto;
+    
+  }
+  /*Especificidad: 001*/
+  dt{
+     
+    text-transform: uppercase;
+  }
+  /*Especificidad: 001*/
+  video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+  }
+  /*Especificidad: 001*/
+  h5{
+    padding: 4em; 
+  }
+  /*Especificidad: 001*/
+  p{
+    padding: 1em;
+  }
+  /*Especificidad: 001*/
+  caption{
+    
+    padding: 2em;   
+  }
+  
+  /*Especificidad: 001*/
+  fieldset{
+    display:flex;
+    flex-flow:row ;
+    flex:auto;
+  }
+  
+  /*Especificidad: 001*/
+  footer{
+    padding-top: 2em;
+    position: relative;
+    bottom: 0;
+    border-radius: 2em;
+    display:flex;
+    flex-flow:row ;
+    flex:auto;
+    margin-top:2em;
+  }
